@@ -6,8 +6,10 @@ class App extends Component{
  render(){
   return(
     <div>
-    <Greet/>
-    <Welcome/>
+    {/* <Greet name="Bikash kumar"/> */}
+    {/* <Greet name="Vicky kumar"/> */}
+    <Welcome name="Asrit Technology"/>
+    <Welcome name="Bikash kumar from siwan"/>
     </div>
   )
  }
